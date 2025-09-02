@@ -1,0 +1,94 @@
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  background-color: #000000;
+}
+
+.form-options {
+  display: flex;
+  justify-content: space-between; /* checkbox left, forgot password right */
+  align-items: center;            /* vertically center aligned */
+  margin-bottom: 15px;
+  width: 100%;
+  font-size: 0.9rem;
+}
+
+.forgot-password {
+  text-decoration: none;
+  color: #fff; /* white color */
+  text-align: right;
+  font-size: 0.85rem;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+  color: #fff; /* optional: keep white on hover */
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;  /* vertical center */
+  gap: 5px;
+  font-size: 0.85rem;
+  color: #fff;
+}
+
+.remember-me input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  margin: 0;            /* remove default margin */
+  vertical-align: middle; /* align with text */
+  cursor: pointer;
+}
+
+.page-background {
+  min-height: 100vh;
+  background-image: url('/public/images/img-8.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-form {
+  background: #000000;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 350px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-form h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #fff;
+}
+
+.signup-form input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.signup-form button {
+  padding: 10px;
+  background-color: #242424;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.signup-form button:hover {
+  background-color: #555;
+}
+
+
