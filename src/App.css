@@ -7,8 +7,9 @@
 
 .home,
 .services,
-.products,
-.sign-up {
+.destination,
+.sign-up
+.packages {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -26,18 +27,28 @@
 
 }
 
-.products {
-  background-image: url('../public/images/img-1.jpg');
+
+.sign-up {
+  background-image: url('../public/images/img-8.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
- 
 }
 
-.sign-up {
-  background-image: url('../public/images/img-8.jpg');
+.packages {
+  background-image: url('../public/images/travel.jpg');
+  height: 100vh;        
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 100px;
+  color: #fff;
+}
+
+.destination {
+  background-image: url('../public/images/img-home.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
